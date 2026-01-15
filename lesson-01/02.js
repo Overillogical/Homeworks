@@ -6,4 +6,15 @@
 */
 
 // your code
-let factorial
+let factorial = 1;
+let number = 10; // Число, чей факториал ищем;
+
+if(number>0){            // Проверка того что число натуральное
+    while(number>=1){
+        factorial*=number;
+        number--;
+    }
+}
+else{
+    console.log(`Factorial of this number cannot be found`)
+}
