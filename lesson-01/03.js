@@ -5,4 +5,14 @@
 */
 
 // your code
-let sum
+let sum = 0;
+let endingNumber = 20;
+
+while(endingNumber>=1){
+    if(endingNumber%2 === 1){
+        sum+=endingNumber;
+        endingNumber-=2;
+    }else{
+        endingNumber-=1;
+    }
+}
